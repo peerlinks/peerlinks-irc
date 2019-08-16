@@ -1,10 +1,15 @@
 #!/usr/bin/env node
 import Server from '../';
 
-const server = new Server();
+const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 1337;
+const db = process.env.DB || 'db.sqlite';
+
+const server = new Server({
+  db,
+});
 
 server.open().then(() => {
-  server.listen(1337, () => {
+  server.listen(port, () => {
     console.error('Listening on %j', server.address());
   });
 
