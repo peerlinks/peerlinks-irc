@@ -1,5 +1,5 @@
 # vowlink-irc
-[![Build Status](https://travis-ci.org/vowlink/vowlink-irc.svg?branch=master)](http://travis-ci.org/vowlink/vowlink-protocol)
+[![Build Status](https://travis-ci.org/vowlink/vowlink-irc.svg?branch=master)](http://travis-ci.org/vowlink/vowlink-irc)
 
 WIP implementation of IRC bridge for [VowLink][].
 
