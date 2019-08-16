@@ -3,6 +3,33 @@
 
 WIP implementation of IRC bridge for [VowLink][].
 
+## Testing Instructions
+
+```sh
+git clone git://github.com/vowlink/vowlink-irc
+cd vowlink-irc
+npm install
+npm start
+```
+
+`npm start` will start an unencrypted IRC server on port 1337 (configurable
+via `PORT` env variable). When connected to this server an IRC client will
+display:
+
+1. A channel with the same name as the identity used for login
+2. A private message from `vowlink`
+
+To request an invite send `requestInvite` to `vowlink` and share the response
+with someone who runs the same server on the other machine. The reply will
+contain instructions and once they are executed - you should see a new channel
+appear in your IRC client.
+
+From this point you can communicate with that person and invite more people
+into the channel.
+
+**WARNING: This is a WIP prototype so things may crash or not work as
+expected**
+
 ## LICENSE
 
 This software is licensed under the MIT License.
