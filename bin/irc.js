@@ -9,7 +9,7 @@ const server = new Server({
 });
 
 server.open().then(() => {
-  server.listen(port, () => {
+  server.listen(port, '127.0.0.1', () => {
     console.error('Listening on %j', server.address());
   });
 
