@@ -13,8 +13,8 @@ npm start
 ```
 
 `npm start` will start an unencrypted IRC server on port 1337 (configurable
-via `PORT` env variable). When connected to this server an IRC client will
-display:
+via `PORT` env variable) and unconfigurable host `127.0.0.1`. When connected to
+this server an IRC client will display:
 
 1. A channel with the same name as the identity used for login
 2. A private message from `vowlink`
