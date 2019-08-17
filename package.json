@@ -25,7 +25,7 @@
   "homepage": "https://github.com/vowlink/vowlink-irc#readme",
   "dependencies": {
     "@vowlink/protocol": "^1.0.1-15",
-    "@vowlink/sqlite-storage": "^1.0.1-7",
+    "@vowlink/sqlite-storage": "^1.0.1-8",
     "debug": "^4.1.1",
     "hyperswarm": "^2.0.6"
   },
