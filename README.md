@@ -1,13 +1,13 @@
-# vowlink-irc
-[![Build Status](https://travis-ci.org/vowlink/vowlink-irc.svg?branch=master)](http://travis-ci.org/vowlink/vowlink-irc)
+# peerlinks-irc
+[![Build Status](https://travis-ci.org/peerlinks/peerlinks-irc.svg?branch=master)](http://travis-ci.org/peerlinks/peerlinks-irc)
 
-WIP implementation of IRC bridge for [VowLink][].
+WIP implementation of IRC bridge for [PeerLinks][].
 
 ## Testing Instructions
 
 ```sh
-git clone git://github.com/vowlink/vowlink-irc
-cd vowlink-irc
+git clone git://github.com/peerlinks/peerlinks-irc
+cd peerlinks-irc
 npm install
 npm start
 ```
@@ -17,9 +17,9 @@ via `PORT` env variable) and unconfigurable host `127.0.0.1`. When connected to
 this server an IRC client will display:
 
 1. A channel with the same name as the identity used for login
-2. A private message from `vowlink`
+2. A private message from `peerlinks`
 
-To request an invite send `requestInvite` to `vowlink` and share the response
+To request an invite send `requestInvite` to `peerlinks` and share the response
 with someone who runs the same server on the other machine. The reply will
 contain instructions and once they are executed - you should see a new channel
 appear in your IRC client.
@@ -55,4 +55,4 @@ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-[VowLink]: https://github.com/vowlink/vowlink-protocol
+[peerlinks]: https://github.com/peerlinks/peerlinks
